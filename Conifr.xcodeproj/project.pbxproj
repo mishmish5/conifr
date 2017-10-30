@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA03DDA51FA7D20E003210ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03DDA41FA7D20E003210ED /* AppDelegate.swift */; };
+		AA03DDA71FA7D20E003210ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03DDA61FA7D20E003210ED /* ViewController.swift */; };
+		AA03DDAA1FA7D20E003210ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA03DDA81FA7D20E003210ED /* Main.storyboard */; };
+		AA03DDAD1FA7D20E003210ED /* Conifr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA03DDAB1FA7D20E003210ED /* Conifr.xcdatamodeld */; };
+		AA03DDAF1FA7D20E003210ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA03DDAE1FA7D20E003210ED /* Assets.xcassets */; };
+		AA03DDB21FA7D20E003210ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA03DDB01FA7D20E003210ED /* LaunchScreen.storyboard */; };
+		AA03DDBD1FA7D20F003210ED /* ConifrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03DDBC1FA7D20F003210ED /* ConifrTests.swift */; };
+		AA03DDC81FA7D20F003210ED /* ConifrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA03DDC71FA7D20F003210ED /* ConifrUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA03DDB91FA7D20F003210ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA03DD991FA7D20E003210ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA03DDA01FA7D20E003210ED;
+			remoteInfo = Conifr;
+		};
+		AA03DDC41FA7D20F003210ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA03DD991FA7D20E003210ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA03DDA01FA7D20E003210ED;
+			remoteInfo = Conifr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA03DDA11FA7D20E003210ED /* Conifr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conifr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA03DDA41FA7D20E003210ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA03DDA61FA7D20E003210ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA03DDA91FA7D20E003210ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA03DDAC1FA7D20E003210ED /* Conifr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Conifr.xcdatamodel; sourceTree = "<group>"; };
+		AA03DDAE1FA7D20E003210ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA03DDB11FA7D20E003210ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA03DDB31FA7D20E003210ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA03DDB81FA7D20F003210ED /* ConifrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConifrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA03DDBC1FA7D20F003210ED /* ConifrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConifrTests.swift; sourceTree = "<group>"; };
+		AA03DDBE1FA7D20F003210ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA03DDC31FA7D20F003210ED /* ConifrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConifrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA03DDC71FA7D20F003210ED /* ConifrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConifrUITests.swift; sourceTree = "<group>"; };
+		AA03DDC91FA7D20F003210ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA03DD9E1FA7D20E003210ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03DDB51FA7D20F003210ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03DDC01FA7D20F003210ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA03DD981FA7D20E003210ED = {
+			isa = PBXGroup;
+			children = (
+				AA03DDA31FA7D20E003210ED /* Conifr */,
+				AA03DDBB1FA7D20F003210ED /* ConifrTests */,
+				AA03DDC61FA7D20F003210ED /* ConifrUITests */,
+				AA03DDA21FA7D20E003210ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA03DDA21FA7D20E003210ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA03DDA11FA7D20E003210ED /* Conifr.app */,
+				AA03DDB81FA7D20F003210ED /* ConifrTests.xctest */,
+				AA03DDC31FA7D20F003210ED /* ConifrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA03DDA31FA7D20E003210ED /* Conifr */ = {
+			isa = PBXGroup;
+			children = (
+				AA03DDA41FA7D20E003210ED /* AppDelegate.swift */,
+				AA03DDA61FA7D20E003210ED /* ViewController.swift */,
+				AA03DDA81FA7D20E003210ED /* Main.storyboard */,
+				AA03DDAE1FA7D20E003210ED /* Assets.xcassets */,
+				AA03DDB01FA7D20E003210ED /* LaunchScreen.storyboard */,
+				AA03DDB31FA7D20E003210ED /* Info.plist */,
+				AA03DDAB1FA7D20E003210ED /* Conifr.xcdatamodeld */,
+			);
+			path = Conifr;
+			sourceTree = "<group>";
+		};
+		AA03DDBB1FA7D20F003210ED /* ConifrTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA03DDBC1FA7D20F003210ED /* ConifrTests.swift */,
+				AA03DDBE1FA7D20F003210ED /* Info.plist */,
+			);
+			path = ConifrTests;
+			sourceTree = "<group>";
+		};
+		AA03DDC61FA7D20F003210ED /* ConifrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA03DDC71FA7D20F003210ED /* ConifrUITests.swift */,
+				AA03DDC91FA7D20F003210ED /* Info.plist */,
+			);
+			path = ConifrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA03DDA01FA7D20E003210ED /* Conifr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA03DDCC1FA7D20F003210ED /* Build configuration list for PBXNativeTarget "Conifr" */;
+			buildPhases = (
+				AA03DD9D1FA7D20E003210ED /* Sources */,
+				AA03DD9E1FA7D20E003210ED /* Frameworks */,
+				AA03DD9F1FA7D20E003210ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Conifr;
+			productName = Conifr;
+			productReference = AA03DDA11FA7D20E003210ED /* Conifr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA03DDB71FA7D20F003210ED /* ConifrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA03DDCF1FA7D20F003210ED /* Build configuration list for PBXNativeTarget "ConifrTests" */;
+			buildPhases = (
+				AA03DDB41FA7D20F003210ED /* Sources */,
+				AA03DDB51FA7D20F003210ED /* Frameworks */,
+				AA03DDB61FA7D20F003210ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA03DDBA1FA7D20F003210ED /* PBXTargetDependency */,
+			);
+			name = ConifrTests;
+			productName = ConifrTests;
+			productReference = AA03DDB81FA7D20F003210ED /* ConifrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA03DDC21FA7D20F003210ED /* ConifrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA03DDD21FA7D20F003210ED /* Build configuration list for PBXNativeTarget "ConifrUITests" */;
+			buildPhases = (
+				AA03DDBF1FA7D20F003210ED /* Sources */,
+				AA03DDC01FA7D20F003210ED /* Frameworks */,
+				AA03DDC11FA7D20F003210ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA03DDC51FA7D20F003210ED /* PBXTargetDependency */,
+			);
+			name = ConifrUITests;
+			productName = ConifrUITests;
+			productReference = AA03DDC31FA7D20F003210ED /* ConifrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA03DD991FA7D20E003210ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Conifr;
+				TargetAttributes = {
+					AA03DDA01FA7D20E003210ED = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					AA03DDB71FA7D20F003210ED = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA03DDA01FA7D20E003210ED;
+					};
+					AA03DDC21FA7D20F003210ED = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA03DDA01FA7D20E003210ED;
+					};
+				};
+			};
+			buildConfigurationList = AA03DD9C1FA7D20E003210ED /* Build configuration list for PBXProject "Conifr" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA03DD981FA7D20E003210ED;
+			productRefGroup = AA03DDA21FA7D20E003210ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA03DDA01FA7D20E003210ED /* Conifr */,
+				AA03DDB71FA7D20F003210ED /* ConifrTests */,
+				AA03DDC21FA7D20F003210ED /* ConifrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA03DD9F1FA7D20E003210ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA03DDB21FA7D20E003210ED /* LaunchScreen.storyboard in Resources */,
+				AA03DDAF1FA7D20E003210ED /* Assets.xcassets in Resources */,
+				AA03DDAA1FA7D20E003210ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03DDB61FA7D20F003210ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03DDC11FA7D20F003210ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA03DD9D1FA7D20E003210ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA03DDAD1FA7D20E003210ED /* Conifr.xcdatamodeld in Sources */,
+				AA03DDA71FA7D20E003210ED /* ViewController.swift in Sources */,
+				AA03DDA51FA7D20E003210ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03DDB41FA7D20F003210ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA03DDBD1FA7D20F003210ED /* ConifrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA03DDBF1FA7D20F003210ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA03DDC81FA7D20F003210ED /* ConifrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA03DDBA1FA7D20F003210ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA03DDA01FA7D20E003210ED /* Conifr */;
+			targetProxy = AA03DDB91FA7D20F003210ED /* PBXContainerItemProxy */;
+		};
+		AA03DDC51FA7D20F003210ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA03DDA01FA7D20E003210ED /* Conifr */;
+			targetProxy = AA03DDC41FA7D20F003210ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA03DDA81FA7D20E003210ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA03DDA91FA7D20E003210ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA03DDB01FA7D20E003210ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA03DDB11FA7D20E003210ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA03DDCA1FA7D20F003210ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA03DDCB1FA7D20F003210ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA03DDCD1FA7D20F003210ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATRE37XL74;
+				INFOPLIST_FILE = Conifr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Conifr.Conifr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA03DDCE1FA7D20F003210ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATRE37XL74;
+				INFOPLIST_FILE = Conifr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Conifr.Conifr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA03DDD01FA7D20F003210ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATRE37XL74;
+				INFOPLIST_FILE = ConifrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Conifr.ConifrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conifr.app/Conifr";
+			};
+			name = Debug;
+		};
+		AA03DDD11FA7D20F003210ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATRE37XL74;
+				INFOPLIST_FILE = ConifrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Conifr.ConifrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conifr.app/Conifr";
+			};
+			name = Release;
+		};
+		AA03DDD31FA7D20F003210ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATRE37XL74;
+				INFOPLIST_FILE = ConifrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Conifr.ConifrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Conifr;
+			};
+			name = Debug;
+		};
+		AA03DDD41FA7D20F003210ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATRE37XL74;
+				INFOPLIST_FILE = ConifrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Conifr.ConifrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Conifr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA03DD9C1FA7D20E003210ED /* Build configuration list for PBXProject "Conifr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA03DDCA1FA7D20F003210ED /* Debug */,
+				AA03DDCB1FA7D20F003210ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA03DDCC1FA7D20F003210ED /* Build configuration list for PBXNativeTarget "Conifr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA03DDCD1FA7D20F003210ED /* Debug */,
+				AA03DDCE1FA7D20F003210ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA03DDCF1FA7D20F003210ED /* Build configuration list for PBXNativeTarget "ConifrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA03DDD01FA7D20F003210ED /* Debug */,
+				AA03DDD11FA7D20F003210ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA03DDD21FA7D20F003210ED /* Build configuration list for PBXNativeTarget "ConifrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA03DDD31FA7D20F003210ED /* Debug */,
+				AA03DDD41FA7D20F003210ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA03DDAB1FA7D20E003210ED /* Conifr.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA03DDAC1FA7D20E003210ED /* Conifr.xcdatamodel */,
+			);
+			currentVersion = AA03DDAC1FA7D20E003210ED /* Conifr.xcdatamodel */;
+			path = Conifr.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA03DD991FA7D20E003210ED /* Project object */;
+}
